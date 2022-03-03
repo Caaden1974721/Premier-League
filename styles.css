@@ -1,0 +1,92 @@
+/*CSS DOCUMENT FOR EXPERIMENTAL TEMPLATE by Caden Miller 2022*/
+
+h1 {font-family: Verdana, Geneva, Sans-Serif;
+color: #1A090D}
+
+div{background-color: #7A7D7D;
+width: 90%;
+border: solid black thin;
+margin: auto;}
+
+body{background-color: #FFFFFF;}
+
+ul{list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #3D195B;}
+
+li{float:left;}
+
+li a{display: inline-block;
+color: white;
+text-align: center;
+padding: 12px 14px;
+text-decoration: none;
+font-family: Verdana, Geneva, Sans-Serif;}
+
+ul a:hover{background-color: #FFFBFE;
+color: #3D195B;}
+
+li.current{background-color: #1A090D;}
+
+h2{font-family: Verdana, Geneva, Sans-Serif;
+color: #1A090D;}
+
+p{font-family: Verdana, Geneva, Sans-Serif;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;}
+
+section{padding: 5px;}
+
+hr{width: 80%;
+background-color: #3D195B;
+border-color: #3D195B;}
+
+footer{text-align: center;}
+
+p.image{text-align: center;}
+p.mancity{text-align: center}
+
+h1{text-align: center;}
+h2{text-align: center;}
+
+
+caption{font-weight: bold;
+font-size: 18pt}
+
+table{width: 70%;
+border-collapse: collapse;
+margin: auto;
+font-family: Verdana, Geneva, Sans-Serif;}
+
+td, th{border: 1px solid black;
+color: #FFFBFE;
+font-family: Verdana, Geneva, Sans-Serif;}
+
+tr:nth-child(odd){background-color: #3D195B;}
+
+section.contact{font-family: Verdana, Geneva, Sans-Serif;
+}
+
+.fling-minislide {width: 100%;
+height: 0px;
+overflow: hidden;
+position: relative;
+padding-bottom: 50%;}
+
+.fling-minislide img {position: absolute;
+animation: fling-minislide 20s infinite;
+opacity: 0;
+width: 100%;
+height: auto;}
+
+@keyframes fling-minislide{25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+.slideshowpic {width: 100%;
+height: auto;}
